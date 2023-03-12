@@ -1,0 +1,913 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="/PATH_TO_STATIC_FAVICON/favicon.ico"
+      type="image/x-icon"
+    />
+    <link rel="icon" href="data:image/x-icon;base64,R0lGODlhEAAQAPEAAAAAAAB88P///wAAACH5BAlGAAMAIf8LTkVUU0NBUEUyLjADAQAAACwAAAAAEAAQAAAC59w2MzMzM8YYI4QQQgghhBAEQRAEQRAEQRAEQRAEQRAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAACAAAAAAACAgICAgAAAAAAAAAAAAAAAAAAAAAAAAAAAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwYMCAAQMKAAAh+QQJMgADACwAAAAAEAAQAAAC59w2MzMzM8YYI4QQQgghhBAEQRAEQRAEQRAEQRAEQRAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwYMCAAQMKAAA7" type="image/x-icon" />
+    <title>hotel</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- normalize -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css"
+    />
+
+    
+    
+    <script type="module" crossorigin src="/mimino-test/assets/menu-bcdd80d5.js"></script>
+    <script type="module" crossorigin src="/mimino-test/assets/modal-prices-6463ae66.js"></script>
+    <script type="module" crossorigin src="/mimino-test/assets/modal-f3c0783f.js"></script>
+    <link rel="stylesheet" href="/mimino-test/assets/menu-960e0ebd.css">
+    <link rel="stylesheet" href="/mimino-test/assets/page-2-58463f13.css">
+  </head>
+
+  <body>
+    <!-- Pavel -->
+<header class="white-header">
+  <div class="white-header-box container">
+    <button type="button" class="white-header-menu-open js-open-menu">
+      <svg class="header-menu-icon" width="28px" height="28px">
+        <use
+          href="/mimino-test/assets/header-icon-sprite-6eb60051.svg#icon-icon-burger-white-header"
+          class="burger"
+        ></use>
+      </svg>
+    </button>
+    <nav>
+      <ul class="white-header-site-nav">
+        <li>
+          <a href="index.html" class="white-header-nav-link current">HOME</a>
+        </li>
+        <li>
+          <a href="page-2.html" class="white-header-nav-link hotel-current"
+            >HOTEL</a
+          >
+        </li>
+        <li>
+          <a href="page-3.html" class="white-header-nav-link restaurant-current"
+            >RESTAURANT</a
+          >
+        </li>
+      </ul>
+    </nav>
+    <ul class="white-header-site-logo">
+      <li>
+        <a href="./index.html" class="white-header-logo-mimino">MIMINO</a>
+      </li>
+      <li>
+        <p class="white-header-logo-complex">RESTAURANT-HOTEL COMPLEX</p>
+      </li>
+    </ul>
+    <ul class="white-header-site-social">
+      <li>
+        <a
+          href="https://www.instagram.com/"
+          target="_blank"
+          rel="noreferrer noopener"
+        >
+          <svg class="white-header-social-icon" width="20px" height="20px">
+            <use
+              class="white-icon"
+              href="/mimino-test/assets/header-icon-sprite-6eb60051.svg#icon-white-header-instagram"
+            ></use>
+          </svg>
+        </a>
+      </li>
+      <li>
+        <a
+          href="https://www.facebook.com/"
+          target="_blank"
+          rel="noreferrer noopener"
+        >
+          <svg class="home-header-social-icon" width="20px" height="20px">
+            <use
+              class="white-icon"
+              href="/mimino-test/assets/header-icon-sprite-6eb60051.svg#icon-white-header-facebook"
+            ></use>
+          </svg>
+        </a>
+      </li>
+      <li>
+        <a
+          href="https://twitter.com/"
+          target="_blank"
+          rel="noreferrer noopener"
+        >
+          <svg class="home-header-social-icon" width="20px" height="20px">
+            <use
+              class="white-icon"
+              href="/mimino-test/assets/header-icon-sprite-6eb60051.svg#icon-white-header-twitter"
+            ></use>
+          </svg>
+        </a>
+      </li>
+    </ul>
+  </div>
+
+  <!-- Header Menu -->
+
+  <div class="white-menu js-menu-container">
+    <div class="white-header-menu container">
+      <button type="button" class="menu-close-button js-close-menu">
+        <svg width="14px" height="14px">
+          <use
+            class="white-menu-close-button-icon"
+            href="/mimino-test/assets/header-icon-sprite-6eb60051.svg#white-icon-close"
+          ></use>
+        </svg>
+      </button>
+      <ul class="menu-white-header-site-logo">
+        <li>
+          <a href="../index.html" class="white-header-logo-mimino">MIMINO</a>
+        </li>
+        <li>
+          <p class="white-header-logo-complex">RESTAURANT-HOTEL COMPLEX</p>
+        </li>
+      </ul>
+      <ul class="header-menu-social-list">
+        <li>
+          <a
+            href="https://www.instagram.com/"
+            target="_blank"
+            rel="noreferrer noopener"
+          >
+            <svg class="menu-social-icon" width="20px" height="20px">
+              <use
+                class="white-icon"
+                href="/mimino-test/assets/header-icon-sprite-6eb60051.svg#icon-white-header-instagram"
+              ></use>
+            </svg>
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://www.facebook.com/"
+            target="_blank"
+            rel="noreferrer noopener"
+          >
+            <svg class="menu-social-icon" width="20px" height="20px">
+              <use
+                class="white-icon"
+                href="/mimino-test/assets/header-icon-sprite-6eb60051.svg#icon-white-header-facebook"
+              ></use>
+            </svg>
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://twitter.com/"
+            target="_blank"
+            rel="noreferrer noopener"
+          >
+            <svg class="menu-social-icon" width="20px" height="20px">
+              <use
+                class="white-icon"
+                href="/mimino-test/assets/header-icon-sprite-6eb60051.svg#icon-white-header-twitter"
+              ></use>
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div class="main-menu-box container">
+      <ul class="menu-site-nav">
+        <li><a href="index.html" class="white-menu-nav-title">HOME</a></li>
+        <li><a href="page-2.html" class="white-menu-nav-title">HOTEL</a></li>
+        <li>
+          <a href="page-3.html" class="white-menu-nav-title">RESTAURANT</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</header>
+
+    <!-- sergey -->
+<section class="hotel-hero-2">
+  <div class="hero-hotel container">
+    <div class="left-bloc">
+      <h1 class="hero-title">Hotel</h1>
+      <div class="option-btns">
+        <button type="button" class="btn-white button pointer" data-modal-open>
+          Book a Room
+        </button>
+        <button
+          type="button"
+          class="btn-white button pointer"
+          data-prices-modal-open
+        >
+          View Prices
+        </button>
+      </div>
+    </div>
+    <div class="slider-img-block">
+      <div class="hero-imgs">
+        <ul class="hero-images list">
+          <li class="hero-image">
+            <picture class="hotels-hero-slider">
+              <source
+                media="(min-width: 1440px)"
+                srcset="/mimino-test/assets/1image_desk@1x-0cb6c1a5.jpg 1x, /mimino-test/assets/1image_desk@2x-a3ae9469.jpg 2x"
+                type="image/jpg"
+              />
+              <source
+                media="(min-width: 768px)"
+                srcset="/mimino-test/assets/1image_tab@1x-09c32500.jpg 1x, /mimino-test/assets/1image_tab@2x-fc164210.jpg 2x"
+                type="image/jpg"
+              />
+              <source
+                media="(max-width: 767.99px)"
+                srcset="/mimino-test/assets/1image_mob@1x-c3d5eed2.jpg 1x, /mimino-test/assets/1image_mob@2x-84233a76.jpg 2x"
+                type="image/jpg"
+              />
+              <img
+                src="../img/img_hotel-hero/1image_mob@1x.jpg"
+                alt="hotel-hero-2"
+                class="swiper-slide"
+              />
+            </picture>
+          </li>
+          <li class="hero-image">
+            <picture class="hotels-hero-slider">
+              <source
+                media="(min-width: 1440px)"
+                srcset="/mimino-test/assets/2image_desk@1x-740e52a8.jpg 1x, /mimino-test/assets/2image_desk@2x-cb608ba3.jpg 2x"
+                type="image/jpg"
+              />
+              <source
+                media="(min-width: 768px)"
+                srcset="/mimino-test/assets/2image_tab@1x-befeda2d.jpg 1x, /mimino-test/assets/2image_tab@2x-1f8da756.jpg 2x"
+                type="image/jpg"
+              />
+              <source
+                media="(max-width: 767.99px)"
+                srcset="/mimino-test/assets/2image_mob@1x-bedf2b7b.jpg 1x, /mimino-test/assets/2image_mob@2x-b67ac011.jpg 2x"
+                type="image/jpg"
+              />
+              <img
+                src="../img/img_hotel-hero/2image_mob@1x.jpg"
+                alt="hotel-hero-2"
+                class="swiper-slide"
+              />
+            </picture>
+          </li>
+        </ul>
+      </div>
+      <div class="slider-buttons">
+        <ul class="btn-list list">
+          <li class="slider-btn">
+            <button class="btn-arrow btn">
+              <svg class="swipe-icon" width="7" height="14">
+                <use
+                  href="/mimino-test/assets/slider-486a6f1e.svg#icon-vector-left"
+                ></use>
+              </svg>
+            </button>
+          </li>
+          <li class="slider-btn">
+            <button class="btn-arrow btn">
+              <svg class="swipe-icon" width="7" height="14">
+                <use
+                  href="/mimino-test/assets/slider-486a6f1e.svg#icon-vector-right"
+                ></use>
+              </svg>
+            </button>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <p class="text">
+      Whether you're in the mood for a hearty breakfast, a light lunch, or
+      <span class="cursive">a romantic dinner</span>, our menu has something for
+      everyone.
+    </p>
+  </div>
+</section>
+
+    <!-- Alakey -->
+<section class="double-room">
+  <div class="container dooble-section">
+    <div class="wrapper-foto-double">
+      <picture class="basis-foto">
+        <source
+          media="(min-width:1440px)"
+          srcset="/mimino-test/assets/DOUBLE-LUXURY-ROOM-BEDROOM-DESK-3ae47b6e.jpg 1x, /mimino-test/assets/DOUBLE-LUXURY-ROOM-BEDROOM-DESK-2x-18d4f4cf.jpg 2x, /mimino-test/assets/DOUBLE-LUXURY-ROOM-BEDROOM-DESK-3x-02bdd002.jpg 3x"
+          type="image/jpg"
+        />
+        <source
+          media="(min-width:768px)"
+          srcset="/mimino-test/assets/DOUBLE-LUXURY-ROOM-BEDROOM-TAB-79d134bf.jpg 1x, /mimino-test/assets/DOUBLE-LUXURY-ROOM-BEDROOM-TAB-2x-90682c31.jpg 2x, /mimino-test/assets/DOUBLE-LUXURY-ROOM-BEDROOM-TAB-3x-9058de53.jpg 3x"
+          type="image/jpg"
+        />
+        <source
+          media="(max-width:767.99px)"
+          srcset="/mimino-test/assets/DOUBLE-LUXURY-ROOM-BEDROOM-MOB-dec1d1e2.jpg 1x, /mimino-test/assets/DOUBLE-LUXURY-ROOM-BEDROOM-MOB-2x-438afcfa.jpg 2x, /mimino-test/assets/DOUBLE-LUXURY-ROOM-BEDROOM-MOB-3x-1559758c.jpg 3x"
+          type="image/jpg"
+        />
+        <img
+          src="/mimino-test/assets/DOUBLE-LUXURY-ROOM-BEDROOM-MOB-dec1d1e2.jpg"
+          alt="Foto of room"
+          loading="lazy"
+          max-width="539"
+          max-height="762"
+        />
+      </picture>
+      <div class="wrapper-img-double">
+        <picture>
+          <source
+            media="(min-width:1440px)"
+            srcset="/mimino-test/assets/DOUBLE-LUXURY-ROOM-BATHROOM-DESK-049a146b.jpg 1x, /mimino-test/assets/DOUBLE-LUXURY-ROOM-BATHROOM-DESK-2x-78dad1a8.jpg 2x, /mimino-test/assets/DOUBLE-LUXURY-ROOM-BATHROOM-DESK-3x-71b6da10.jpg 3x"
+            type="image/jpg"
+          />
+          <source
+            media="(min-width:768px)"
+            srcset="/mimino-test/assets/DOUBLE-LUXURY-ROOM-BATHROOM-TAB-b5461fc6.jpg 1x, /mimino-test/assets/DOUBLE-LUXURY-ROOM-BATHROOM-TAB-2x-21de15aa.jpg 2x, /mimino-test/assets/DOUBLE-LUXURY-ROOM-BATHROOM-TAB-3x-2e8f3e2d.jpg 3x"
+            type="image/jpg"
+          />
+          <source
+            media="(max-width:767.99px)"
+            srcset="data:image/jpeg;base64,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 1x, /mimino-test/assets/DOUBLE-LUXURY-ROOM-BATHROOM-MOB-2x-156aee23.jpg 2x, /mimino-test/assets/DOUBLE-LUXURY-ROOM-BATHROOM-MOB-3x-ed6615af.jpg 3x"
+            type="image/jpg"
+          />
+          <img
+            src="data:image/jpeg;base64,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"
+            alt="Foto of room"
+            loading="lazy"
+            max-width="387"
+            max-height="510"
+          />
+        </picture>
+        <picture>
+          <source
+            media="(min-width:1440px)"
+            srcset="/mimino-test/assets/DOUBLE-LUXURY-ROOM-KITCHEN-DESK-c950d75f.jpg 1x, /mimino-test/assets/DOUBLE-LUXURY-ROOM-KITCHEN-DESK-2x-ec267bc7.jpg 2x, /mimino-test/assets/DOUBLE-LUXURY-ROOM-KITCHEN-DESK-3x-95ec743d.jpg 3x"
+            type="image/jpg"
+          />
+          <source
+            media="(min-width:768px)"
+            srcset="/mimino-test/assets/DOUBLE-LUXURY-ROOM-KITCHEN-TAB-2b325d05.jpg 1x, /mimino-test/assets/DOUBLE-LUXURY-ROOM-KITCHEN-TAB-2x-1a279319.jpg 2x, /mimino-test/assets/DOUBLE-LUXURY-ROOM-KITCHEN-TAB-3x-c4c9668b.jpg 3x"
+            type="image/jpg"
+          />
+          <source
+            media="(max-width:767.99px)"
+            srcset="data:image/jpeg;base64,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 1x, /mimino-test/assets/DOUBLE-LUXURY-ROOM-KITCHEN-MOB-2x-089d8b87.jpg 2x, /mimino-test/assets/DOUBLE-LUXURY-ROOM-KITCHEN-MOB-3x-84b83537.jpg 3x"
+            type="image/jpg"
+          />
+          <img
+            src="data:image/jpeg;base64,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"
+            alt="Foto of room"
+            loading="lazy"
+            max-width="387"
+            max-height="510"
+          />
+        </picture>
+      </div>
+    </div>
+    <div class="container-text-double">
+      <div class="container-info">
+        <h2 class="title-room">DOUBLE LUXURY ROOM</h2>
+        <div class="text-wrapper">
+          <p class="text-double-room">
+            Experience luxury in our Double Luxury Room at Mimino Hotel. This
+            spacious room features a comfortable bed, private bathroom, flat-
+            screen TV, and high-speed Wi-Fi. Climate control, blackout curtains,
+            and soundproofing ensure a peaceful night's sleep.
+          </p>
+          <p class="text-double-room">
+            Relax after a busy day at the writing desk or armchair. Book now for
+            a convenient and comfortable stay.
+          </p>
+        </div>
+      </div>
+      <div class="wrapper-button-double">
+        <a href="page-4.html" class="More-details button btn-white">
+          More details
+        </a>
+        <button
+          class="View-prices button btn-white"
+          type="button"
+          data-prices-modal-open
+        >
+          View prices
+        </button>
+      </div>
+    </div>
+  </div>
+</section>
+
+    <!-- Violeta -->
+<section class="triple-room">
+  <div class="container">
+    <div class="wrapper-foto">
+      <picture class="basis-foto">
+        <source
+          media="(min-width:1440px)"
+          srcset="/mimino-test/assets/img-1_desk-80512b2a.jpg 1x, /mimino-test/assets/img-1_desk@2x-4fa1735c.jpg 2x"
+          type="image/jpg"
+        />
+        <source
+          media="(min-width:768px)"
+          srcset="/mimino-test/assets/img-1_tab-856c52c7.jpg 1x, /mimino-test/assets/img-1_tab@2x-0c2ae730.jpg 2x"
+          type="image/jpg"
+        />
+        <source
+          media="(max-width:767.99px)"
+          srcset="/mimino-test/assets/img-1_mob-6b11c459.jpg 1x, /mimino-test/assets/img-1_mob@2x-63bda6a0.jpg 2x"
+          type="image/jpg"
+        />
+        <img
+          src="/mimino-test/assets/img-1_mob-6b11c459.jpg"
+          alt="Foto of room"
+          loading="lazy"
+        />
+      </picture>
+      <div class="wrapper-img">
+        <picture>
+          <source
+            media="(min-width:1440px)"
+            srcset="/mimino-test/assets/img-2_desk-08b57d8c.jpg 1x, /mimino-test/assets/img-2_desk@2x-ed158b78.jpg 2x"
+            type="image/jpg"
+          />
+          <source
+            media="(min-width:768px)"
+            srcset="/mimino-test/assets/img-2_tab-097eb200.jpg 1x, /mimino-test/assets/img-2_tab@2x-1505d4cf.jpg 2x"
+            type="image/jpg"
+          />
+          <source
+            media="(max-width:767.99px)"
+            srcset="/mimino-test/assets/img-2_mob-1d41a05b.jpg 1x, /mimino-test/assets/img-2_mob@2x-11909ecb.jpg 2x"
+            type="image/jpg"
+          />
+          <img
+            src="/mimino-test/assets/img-2_mob-1d41a05b.jpg"
+            alt="Foto of room"
+            loading="lazy"
+          />
+        </picture>
+        <picture>
+          <source
+            media="(min-width:1440px)"
+            srcset="/mimino-test/assets/img-3_desk-af4d6adf.jpg 1x, /mimino-test/assets/img-3_desk@2x-ac98a428.jpg 2x"
+            type="image/jpg"
+          />
+          <source
+            media="(min-width:768px)"
+            srcset="/mimino-test/assets/img-3_tab-4a1fc30b.jpg 1x, /mimino-test/assets/img-3_tab@2x-ade5f1ca.jpg 2x"
+            type="image/jpg"
+          />
+          <source
+            media="(max-width:767.99px)"
+            srcset="/mimino-test/assets/img-3_mob-677dbaec.jpg 1x, /mimino-test/assets/img-3_mob@2x-7feaad37.jpg 2x"
+            type="image/jpg"
+          />
+          <img
+            src="/mimino-test/assets/img-3_mob-677dbaec.jpg"
+            alt="Foto of room"
+            loading="lazy"
+          />
+          <!-- fixed -->
+        </picture>
+      </div>
+    </div>
+    <div class="container-text">
+      <div class="container-info">
+        <h2 class="title-room">Triple Room</h2>
+        <div class="text-wrapper">
+          <p class="text-triple-room">
+            Escape to our spacious Triple Room, perfect for families or groups.
+            Enjoy comfort with three beds, seating area, stunning views,
+            flat-screen TVs, Wi-Fi, and mini-fridge.
+          </p>
+          <p class="text-triple-room">
+            Rejuvenate in the en-suite bathroom with plush towels and
+            toiletries. Book now for a memorable stay.
+          </p>
+        </div>
+      </div>
+      <ul class="wrapper-button">
+        <li><a href="page-4.html" class="button btn-white">More details</a></li>
+        <li>
+          <butoon type="button" class="button btn-white" data-prices-modal-open
+            >View prices</butoon
+          >
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+<!-- Modal -->
+<!-- Modal window  -->
+<div class="backdrop is-hidden" data-prices-modal>
+  <div class="modal-prices">
+    <button type="button" class="cls-button" data-prices-modal-close>
+      <svg class="icon-cls" width="12" height="12">
+        <use href="/mimino-test/assets/symbol-defs-4c669716.svg#icon-Iconcls-btn-1"></use>
+      </svg>
+    </button>
+    <strong class="title-modal">Prices per room</strong>
+    <div class="form-container-prices">
+      <h2 class="title-prices-modal">Double suite</h2>
+      <form class="form-prices" autocomplete="off">
+        <div class="wrapper-price-form">
+          <div class="form-label-prices price-number-night">
+            <select
+              class="dropdown-color-prices"
+              id="number-night"
+              name="number-night"
+            >
+              <option value="xs" selected>1</option>
+              <option value="s">2</option>
+              <option value="m">3</option>
+              <option value="l">4</option>
+            </select>
+            <label class="form-prices-label" for="number-night" required
+              >Number og night</label
+            >
+          </div>
+          <div class="form-label-prices">
+            <select
+              type="date"
+              class="dropdown-color-prices"
+              id="date"
+              name="date"
+            >
+              <option value="25/04/2023" selected>25/04/2023</option>
+              <option value="26/04/2023">26/04/2023</option>
+              <option value="27/04/2023">27/04/2023</option>
+              <option value="28/04/2023">28/04/2023</option>
+              <option value="29/04/2023">29/04/2023</option>
+              <option value="30/04/2023">30/04/2023</option></select
+            ><label class="form-prices-label" for="date" required>
+              Check-in date
+            </label>
+          </div>
+
+          <div class="form-label-prices price-input">
+            <input
+              class="form-input-prices"
+              type="text"
+              name="uan"
+              min="3"
+              placeholder="1000"
+              required
+            />
+            <label class="form-prices-label" for="uan">uan</label>
+          </div>
+        </div>
+        <button class="btn-black btn-send" type="submit">
+          MAKE A RESERVATION
+        </button>
+      </form>
+    </div>
+  </div>
+</div>
+
+    <!-- Katerina -->
+<section class="four-seater-room">
+  <div class="container container-four-seater">
+    <div class="picture-wrap">
+      <div class="tablet-version">
+        <picture class="">
+          <source
+            media="(min-width:1440px)"
+            srcset="/mimino-test/assets/four-seater-bathroom-desktop-8244b426.jpg 1x, /mimino-test/assets/four-seater-bathroom-desktop-2x-e23a69aa.jpg 2x, /mimino-test/assets/four-seater-bathroom-desktop-3x-b8afc564.jpg 3x"
+            type="image/jpg"
+          />
+          <source
+            media="(min-width:768px)"
+            srcset="/mimino-test/assets/four-seater-bathroom-tablet-f5406db1.jpg 1x, /mimino-test/assets/four-seater-bathroom-tablet-2x-5b703061.jpg 2x, /mimino-test/assets/four-seater-bathroom-tablet-3x-99b0843b.jpg 3x"
+            type="image/jpg"
+          />
+          <source
+            media="(max-width:767.99px)"
+            srcset="data:image/jpeg;base64,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 1x, /mimino-test/assets/four-seater-bathroom-mobile-2x-27826a36.jpg 2x, /mimino-test/assets/four-seater-bathroom-mobile-3x-eb0eb064.jpg 3x"
+            type="image/jpg"
+          />
+          <img
+            src="data:image/jpeg;base64,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"
+            alt="Bathroom"
+            loading="lazy"
+          />
+        </picture>
+        <picture class="">
+          <source
+            media="(min-width:1440px)"
+            srcset="/mimino-test/assets/four-seater-kitchen-desktop-d1cdf218.jpg 1x, /mimino-test/assets/four-seater-kitchen-desktop-2x-d351de64.jpg 2x, /mimino-test/assets/four-seater-kitchen-desktop-3x-d0a13057.jpg 3x"
+            type="image/jpg"
+          />
+          <source
+            media="(min-width:768px)"
+            srcset="/mimino-test/assets/four-seater-kitchen-tablet-6a4145c1.jpg 1x, /mimino-test/assets/four-seater-kitchen-tablet-3x-f8ecda76.jpg 3x"
+            type="image/jpg"
+          />
+          <source
+            media="(max-width:767.99px)"
+            srcset="data:image/jpeg;base64,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 1x, /mimino-test/assets/four-seater-kitchen-mobile-2x-ca5ba991.jpg 2x, /mimino-test/assets/four-seater-kitchen-mobile-3x-d47f5742.jpg 3x"
+            type="image/jpg"
+          />
+          <img
+            src="data:image/jpeg;base64,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"
+            alt="Bedroom"
+            loading="lazy"
+          />
+        </picture>
+      </div>
+      <picture class="images-desktop">
+        <source
+          media="(min-width:1440px)"
+          srcset="/mimino-test/assets/four-seater-bedroom-desktop-45d2d7fd.jpg 1x, /mimino-test/assets/four-seater-bedroom-desktop-2x-1865f869.jpg 2x, /mimino-test/assets/four-seater-bedroom-desktop-3x-1fe8e76b.jpg 3x"
+          type="image/jpg"
+        />
+        <source
+          media="(min-width:768px)"
+          srcset="/mimino-test/assets/four-seater-bedroom-tablet-63caf2c2.jpg 1x, /mimino-test/assets/four-seater-bedroom-tablet-2x-9b62445b.jpg 2x, /mimino-test/assets/four-seater-bedroom-tablet-3x-257a304a.jpg 3x"
+          type="image/jpg"
+        />
+        <source
+          media="(max-width:767.99px)"
+          srcset="/mimino-test/assets/four-seater-bedroom-mobile-fc181606.jpg 1x, /mimino-test/assets/four-seater-bedroom-mobile-2x-ee8c8300.jpg 2x, /mimino-test/assets/four-seater-bedroom-mobile-3x-dbecf371.jpg 3x"
+          type="image/jpg"
+        />
+        <img
+          src="/mimino-test/assets/four-seater-bedroom-mobile-fc181606.jpg"
+          alt="Bedroom"
+          loading="lazy"
+        />
+      </picture>
+    </div>
+    <div class="flex-wrapper">
+      <div class="text-wrap">
+        <h2 class="four-seater-room-title">Four-seater room</h2>
+        <p class="four-seater-room-text">
+          Our 4-person room is perfect for small groups, offering comfort and
+          convenience with 4 comfortable beds, ample storage, flat-screen TV,
+          mini-fridge, coffee maker, desk and chair, air-conditioning, heating,
+          and soundproof walls. Book now for a memorable stay.
+        </p>
+      </div>
+      <div class="button-wrap">
+        <ul class="four-seater-room-button">
+          <li>
+            <a href="page-4.html" class="button btn-white"> More details </a>
+          </li>
+          <li>
+            <button
+              type="button"
+              class="button btn-white"
+              data-prices-modal-open
+            >
+              View prices
+            </button>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+    <!-- Alexey-->
+<footer class="footer">
+  <div class="container">
+    <ul class="footer-item">
+      <li>
+        <ul class="footer-nav">
+          <li><a class="footer-nav-item" href="index.html">Home</a></li>
+          <li><a class="footer-nav-item" href="page-2.html">Hotel</a></li>
+          <li><a class="footer-nav-item" href="page-3.html">Restaurant</a></li>
+        </ul>
+      </li>
+
+      <li>
+        <a href="index.html" class="link">
+          <div class="footer-main">
+            <h3 class="footer-title">Mimino</h3>
+            <p class="description">Restaurant-hotel complex</p>
+          </div>
+        </a>
+      </li>
+
+      <li>
+        <ul class="footer-soc-list">
+          <li>
+            <a href="https://www.instagram.com/" target="_blank">
+              <svg width="24px" height="24px" class="instagram">
+                <use href="/mimino-test/assets/icons-df97797c.svg#icon-instagram"></use>
+              </svg>
+            </a>
+          </li>
+
+          <li>
+            <a href="https://facebook.com/" target="_blank">
+              <svg width="24px" height="24px" class="soc-icon">
+                <use href="/mimino-test/assets/icons-df97797c.svg#icon-facebook"></use>
+              </svg>
+            </a>
+          </li>
+
+          <li>
+            <a href="https://twitter.com" target="_blank">
+              <svg width="24px" height="24px" class="soc-icon">
+                <use href="/mimino-test/assets/icons-df97797c.svg#icon-twitter"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+
+  <div class="border"></div>
+</footer>
+
+
+    <div class="backdrop is-hidden" data-modal>
+  <div class="modal">
+    <button class="cls-button" data-modal-close>
+      <svg class="icon-cls" width="12" height="12">
+        <use href="/mimino-test/assets/symbol-defs-4c669716.svg#icon-Iconcls-btn-1"></use>
+      </svg>
+    </button>
+    <p class="modal-title"><span class="mod-style">book&nbsp;</span>a room</p>
+    <form class="order_form" name="order-form">
+      <ul class="person-data list">
+        <li class="order-form-group">
+          <input
+            class="order-form-field"
+            id="user-name"
+            name="user-name"
+            type="text"
+            placeholder="YOUR NAME"
+            required
+          />
+          <label class="order-form-label" for="user-name"
+            >Who should book a table for?</label
+          >
+        </li>
+        <li class="order-form-group">
+          <input
+            class="order-form-field"
+            id="phone"
+            name="phone"
+            type="tel"
+            placeholder="+38 (___) ___-__-__"
+            required
+            pattern="(\s*)?(\+)?([- _():=+]?\d[- _():=+]?){12}(\s*)?"
+            minlength="7"
+            maxlength="19"
+          />
+          <label class="order-form-label" for="user-phone">phone number</label>
+        </li>
+      </ul>
+
+      <ul class="option-data list">
+        <li class="order-form-group">
+          <!-- <input
+            class="order-form-field"
+            id="calendar"
+            name="calendar"
+            type="text"  
+            required
+          /> -->
+
+          <select id="days" name="days" class="order-form-field">
+            <svg class="select-icon" width="20px" height="20px">
+              <use href="../img/img_hotel-hero/select.svg#icon-select"></use>
+            </svg>
+            <option value="date" selected>today</option>
+            <option value="date">tomorrow</option>
+            <option value="date">day after tomorrow</option>
+          </select>
+          <label class="order-form-label" for="user-mail">check-in date</label>
+        </li>
+        <li class="order-form-group">
+          <!-- <input
+            class="order-form-field"
+            id="user-mail"
+            name="user-mail"
+            type="text"
+            required
+          /> -->
+
+          <select id="calender" name="calender" class="order-form-field">
+            <svg class="select-icon" width="20px" height="20px">
+              <use href="../img/img_hotel-hero/select.svg#icon-select"></use>
+            </svg>
+            <option value="date" selected>25.03.2023</option>
+            <option value="date">26.03.2023</option>
+            <option value="date">27.03.2023</option>
+          </select>
+          <label class="order-form-label" for="user-mail">check-out date</label>
+        </li>
+        <li class="order-form-group">
+          <!-- <input
+            class="order-form-field"
+            id="user-mail"
+            name="user-mail"
+            type="text"
+            required
+          /> -->
+
+          <select id="rooms" name="rooms" class="order-form-field">
+            <svg class="select-icon" width="20px" height="20px">
+              <use href="../img/img_hotel-hero/select.svg#icon-select"></use>
+            </svg>
+            <option value="room" selected>double suite</option>
+            <option value="room">Double Luxury Room</option>
+            <option value="room">triple room</option>
+          </select>
+          <label class="order-form-label" for="user-mail"
+            >number categoty</label
+          >
+        </li>
+      </ul>
+      <button class="btn-send button pointer" type="submit">
+        make a reservation
+      </button>
+    </form>
+  </div>
+</div>
+
+    <div class="backdrop is-hidden" data-prices-modal>
+  <div class="modal-prices">
+    <button type="button" class="cls-button" data-prices-modal-close>
+      <svg class="icon-cls" width="12" height="12">
+        <use href="/mimino-test/assets/symbol-defs-4c669716.svg#icon-Iconcls-btn-1"></use>
+      </svg>
+    </button>
+    <strong class="title-modal">Prices per room</strong>
+    <div class="form-container-prices">
+      <h2 class="title-prices-modal">Double suite</h2>
+      <form class="form-prices" autocomplete="off">
+        <div class="wrapper-price-form">
+          <div class="form-label-prices price-number-night">
+            <select
+              class="dropdown-color-prices"
+              id="number-night"
+              name="number-night"
+            >
+              <option value="xs" selected>1</option>
+              <option value="s">2</option>
+              <option value="m">3</option>
+              <option value="l">4</option>
+            </select>
+            <label class="form-prices-label" for="number-night" required
+              >Number og night</label
+            >
+          </div>
+          <div class="form-label-prices">
+            <select
+              type="date"
+              class="dropdown-color-prices"
+              id="date"
+              name="date"
+            >
+              <option value="25/04/2023" selected>25/04/2023</option>
+              <option value="26/04/2023">26/04/2023</option>
+              <option value="27/04/2023">27/04/2023</option>
+              <option value="28/04/2023">28/04/2023</option>
+              <option value="29/04/2023">29/04/2023</option>
+              <option value="30/04/2023">30/04/2023</option></select
+            ><label class="form-prices-label" for="date" required>
+              Check-in date
+            </label>
+          </div>
+
+          <div class="form-label-prices price-input">
+            <input
+              class="form-input-prices"
+              type="text"
+              name="uan"
+              min="3"
+              placeholder="1000"
+              required
+            />
+            <label class="form-prices-label" for="uan">uan</label>
+          </div>
+        </div>
+        <button class="btn-black btn-send" type="submit">
+          MAKE A RESERVATION
+        </button>
+      </form>
+    </div>
+  </div>
+</div>
+
+
+    
+    
+    
+  </body>
+</html>
